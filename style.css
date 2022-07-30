@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./font/TTLakes-Regular.ttf);
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'TT Lakes';
+}
+
+.header {
+    display: flex;
+    width: 320px;
+    height: 88px;
+    background-color: white;
+}
+
+.header__front-side {
+    width: 60%;
+}
+
+.header__front-side--separator {
+    display: none;
+    margin: 0 20px 0 20px;
+    height: 31px;
+    border-bottom: 0;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    opacity: 0.3;
+}
+
+.header__front-side--wrapper-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header__feedback {
+    display: none;
+}
+
+.main--space {
+    display: none;
+}
+
+.main__discription--part-two {
+    display: none;
+}
+
+.header__right-side {
+    width: 40%;
+}
+
+.header--flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__separator {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border-bottom: 0;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    opacity: 0.3;
+}
+
+.main {
+    height: 509px;
+    width: 320px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.main__topic {
+    display: flex;
+}
+
+.main--decoration-topic {
+    width: 4px;
+    height: 40px;
+    align-self: center;
+    margin-right: 12px;
+    background-color: #41F6D7;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.main__navigation {
+    width: 5000px;
+}
+
+.main__group-items {
+    display: flex;
+}
+
+.main__wrapper-item {
+    height: 40px;
+    margin-left: 16px;
+}
+
+.main__wrapper-item:first-child {
+    display: none;
+}
+
+.main__wrapper-item:nth-child(2) {
+    border: #41F6D7 solid 1px;
+    border-radius: 5px;
+    height: 38px;
+}
+
+.main__item {
+    margin: 8px 0.5em 8px 0.5em;
+    height: 22px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.main--height-text {
+    margin: 7px 0.5em 7px 0.5em;
+}
+
+.main__description {
+    font-size: 14px;
+    margin: 24px 16px 16px 16px;
+}
+
+.main__watch-full-discription {
+    height: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+}
+
+.main__btn-watch-full-discription {
+    margin-left: 8px;
+    padding: 0;
+    border: 0;
+    background-color: inherit;
+    font-size: 16px;
+}
+
+.main__wrapper-signboard {
+    margin: 16px 0 0 0;
+}
+
+.main__signboard {
+    width: 320px;
+    height: 176px;
+}
