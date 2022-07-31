@@ -1,0 +1,115 @@
+@media (min-width: 1120px) {
+    .header {
+        display: none;
+    }
+
+    .main {
+        height: 535px;
+        width: 1120px;
+        background-color: #f8f8f8;
+        overflow: hidden;
+    }
+
+    .main__topic {
+        margin-top: 39px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main__topic-text {
+        margin-left: 18px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .main__wrapper-item {
+        margin-left: 32px;
+        margin-top: 8px;
+    }
+
+    .main__group-items {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1088px;
+    }
+
+    .main__wrapper-topic-right {
+        display: flex;
+    }
+
+    .main__topic--block-button {
+        margin-right: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__topic--discription-button {
+        margin-right: 8px;
+        font-weight: bold;
+    }
+
+    .main__wrapper-item {
+        margin-bottom: 0;
+    }
+
+    .main__wrapper-item:first-child {
+        display: block;
+        border: #41F6D7 solid 1px;
+        border-radius: 5px;
+        height: 38px;
+    }
+
+    .main__wrapper-item:nth-child(2) {
+        border: none;
+    }
+
+    .main__wrapper-item:nth-child(3) {
+        display: none;
+    }
+
+    .main__wrapper-item:nth-child(4) {
+        margin-left: 16px;
+    }
+
+    .main__wrapper-item:nth-child(5) {
+        margin-left: 16px;
+    }
+
+    .main__wrapper-item:last-child {
+        margin-top: 0;
+    }
+
+    .main__description {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .main__wrapper-content {
+        display: flex;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .main__wrapper-signboard {
+        margin: 0;
+    }
+
+    .main__signboard {
+        height: 307px;
+        width: 531.35px;
+    }
+
+    .main--space {
+        display: block;
+    }
+
+    .main__discription--part-two {
+        display: inline;
+    }
+
+    .main__discription--part-three {
+        display: inline;
+    }
+
+}

@@ -50,6 +50,10 @@ body {
     display: none;
 }
 
+.main__discription--part-three {
+    display: none;
+}
+
 .header__right-side {
     width: 40%;
 }
@@ -90,8 +94,16 @@ body {
     border-bottom-right-radius: 3px;
 }
 
+.main__wrapper-topic-left {
+    display: flex;
+}
+
+.main__wrapper-topic-right {
+    display: none;
+}
+
 .main__navigation {
-    width: 5000px;
+    width: 2000px;
 }
 
 .main__group-items {
