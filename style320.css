@@ -84,7 +84,13 @@ body {
     display: flex;
 }
 
-.main--decoration-topic {
+.block-button {
+    border: 0;
+    background-color: #f8f8f8;
+}
+
+.main__wrapper-topic-left::before {
+    content: "";
     width: 4px;
     height: 40px;
     align-self: center;
@@ -96,6 +102,8 @@ body {
 
 .main__wrapper-topic-left {
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .main__wrapper-topic-right {
@@ -108,6 +116,7 @@ body {
 
 .main__group-items {
     display: flex;
+    padding: 0;
 }
 
 .main__wrapper-item {
@@ -123,9 +132,11 @@ body {
     border: #41F6D7 solid 1px;
     border-radius: 5px;
     height: 38px;
+
 }
 
 .main__item {
+    display: block;
     margin: 8px 0.5em 8px 0.5em;
     height: 22px;
     font-weight: normal;
@@ -142,14 +153,26 @@ body {
 }
 
 .main__watch-full-discription {
-    height: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    height: 30px;
     display: flex;
+    border: 0;
+    background-color: inherit;
+    padding: 0;
+}
+
+.main__watch-full-discription:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-color: inherit;
+    font-size: 16px;
+    background-image: url(./img/expand.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main__btn-watch-full-discription {
-    margin-left: 8px;
     padding: 0;
     border: 0;
     background-color: inherit;

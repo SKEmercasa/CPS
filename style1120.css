@@ -16,12 +16,6 @@
         justify-content: space-between;
     }
 
-    .main__topic-text {
-        margin-left: 18px;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-
     .main__wrapper-item {
         margin-left: 32px;
         margin-top: 8px;
@@ -37,16 +31,30 @@
         display: flex;
     }
 
-    .main__topic--block-button {
+    .block-button {
         margin-right: 32px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .main__topic--discription-button {
+    .block-button--discription-button {
         margin-right: 8px;
         font-weight: bold;
+    }
+
+    .block-button--button {
+        width: 40px;
+        height: 40px;
+        background-color: #FF3E79;
+        border-radius: 25px;
+        background-image: url(./img/settings.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .main__wrapper-topic-left::before {
+        margin-right: 30px;
     }
 
     .main__wrapper-item {

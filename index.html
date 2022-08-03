@@ -32,50 +32,49 @@
         </div>
     </header>
     <main class="main">
-        <div class="main__topic">
-            <div class="main__wrapper-topic-left">
-                <div class="main--decoration-topic"></div>
-                <h1 class="main__topic-text">Услуги и сервисы</h1>
-            </div>
+        <header class="main__topic">
+            <h1 class="main__wrapper-topic-left">
+                Услуги и сервисы
+            </h1>
             <div class="main__wrapper-topic-right">
-                <div class="main__topic--block-button">
-                    <span class="main__topic--discription-button">Оставить заявку</span>
-                    <img class="main__topic--button" src="./img/settings.svg" alt="settings">
-                </div>
-                <div class="main__topic--block-button">
-                    <span class="main__topic--discription-button">Статус ремонта</span>
-                    <img class="main__topic--button" src="./img/search.svg" alt="search">
-                </div>
+                <button class="block-button">
+                    <label for="feed" class="block-button--discription-button">Оставить заявку</label>
+                    <input class="block-button--button" type="image" name="feed" alt="">
+                </button>
+                <button class="block-button">
+                    <label for="status" class="block-button--discription-button">Статус ремонта</label>
+                    <input class="block-button--button" type="image" name="status" src="./img/search.svg" alt="search">
+                </button>
             </div>
-        </div>
+        </header>
         <nav class="main__navigation">
-            <hgroup class="main__group-items">
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Ремонтируемые бренды</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item main--height-text">Ремонтируемые устройства</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Дополнительные услуги</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Цены на услуги</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Адреса сервисных центров</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Специальные цены</div>
-                </h3>
-                <h3 class="main__wrapper-item">
-                    <div class="main__item">Отзывы</div>
-                </h3>
-            </hgroup>
+            <ul class="main__group-items">
+                <div class="main__wrapper-item">
+                    <a class="main__item">Ремонтируемые бренды</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item main--height-text">Ремонтируемые устройства</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item">Дополнительные услуги</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item">Цены на услуги</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item">Адреса сервисных центров</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item">Специальные цены</a>
+                </div>
+                <div class="main__wrapper-item">
+                    <a class="main__item">Отзывы</a>
+                </div>
+            </ul>
         </nav>
-        <div class="main__wrapper-content">
+        <article class="main__wrapper-content">
             <div class="main__wrapper-content--left-side">
-                <article class="main__description">
+                <div class="main__description">
                     <section class="main__discription--part-one">
                         Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только
                         у нас вы можете отремонтировать свой
@@ -91,20 +90,19 @@
                         клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас
                         родным и близким.
                     </section>
-                </article>
-                <div class="main__watch-full-discription">
-                    <img src="./img/expand.svg" alt="expand">
-                    <button class="main__btn-watch-full-discription">
-                        Читать далее
-                    </button>
                 </div>
+                <button class="main__watch-full-discription" name="btn">
+                    <label class="main__btn-watch-full-discription" for="btn">
+                        Читать далее
+                    </label>
+                </button>
             </div>
             <div class="main__wrapper-content--right-side">
                 <figure class="main__wrapper-signboard">
                     <img class="main__signboard" src="./img/pictureCPS.jpg" alt="signboard">
                 </figure>
             </div>
-        </div>
+        </article>
     </main>
 </body>
 
