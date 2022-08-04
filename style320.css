@@ -122,6 +122,7 @@ body {
 .main__wrapper-item {
     height: 40px;
     margin-left: 16px;
+    list-style-type: none;
 }
 
 .main__wrapper-item:first-child {
