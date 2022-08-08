@@ -14,7 +14,7 @@ body {
 
 .header {
     display: flex;
-    width: 320px;
+    width: 100%;
     height: 88px;
     background-color: white;
 }
@@ -75,7 +75,7 @@ body {
 
 .main {
     height: 509px;
-    width: 320px;
+    width: 100%;
     background-color: #f8f8f8;
     overflow: hidden;
 }
@@ -111,11 +111,12 @@ body {
 }
 
 .main__navigation {
-    width: 2000px;
+    overflow-x: scroll;
 }
 
 .main__group-items {
     display: flex;
+    width: max-content;
     padding: 0;
 }
 
@@ -153,31 +154,26 @@ body {
     margin: 24px 16px 16px 16px;
 }
 
-.main__watch-full-discription {
+.watch-full-discription {
     height: 30px;
     display: flex;
     border: 0;
     background-color: inherit;
     padding: 0;
+    font-size: 16px;
 }
 
-.main__watch-full-discription:before {
+.watch-full-discription:before {
     content: '';
     width: 24px;
     height: 24px;
     border: 0;
+    margin-left: 8px;
     background-color: inherit;
     font-size: 16px;
     background-image: url(./img/expand.svg);
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.main__btn-watch-full-discription {
-    padding: 0;
-    border: 0;
-    background-color: inherit;
-    font-size: 16px;
 }
 
 .main__wrapper-signboard {
@@ -187,4 +183,10 @@ body {
 .main__signboard {
     width: 320px;
     height: 176px;
+}
+
+@media (max-width: 319.98px) {
+    .header, .main {
+        width: 320px;
+    }
 }

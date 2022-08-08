@@ -5,7 +5,7 @@
 
     .main {
         height: 535px;
-        width: 1120px;
+        width: 100%;
         background-color: #f8f8f8;
         overflow: hidden;
     }
@@ -31,26 +31,15 @@
         display: flex;
     }
 
+    .main__navigation {
+        overflow-x: hidden;
+    }
+
     .block-button {
         margin-right: 32px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .block-button--discription-button {
-        margin-right: 8px;
-        font-weight: bold;
-    }
-
-    .block-button--button {
-        width: 40px;
-        height: 40px;
-        background-color: #FF3E79;
-        border-radius: 25px;
-        background-image: url(./img/settings.svg);
-        background-repeat: no-repeat;
-        background-position: center;
     }
 
     .main__wrapper-topic-left::before {
