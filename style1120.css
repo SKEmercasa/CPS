@@ -46,6 +46,10 @@
         margin-right: 30px;
     }
 
+    .watch-full-discription--margin::before {
+        margin-left: 0;
+    }
+
     .main__wrapper-item {
         margin-bottom: 0;
     }

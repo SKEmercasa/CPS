@@ -166,14 +166,17 @@ body {
 .watch-full-discription:before {
     content: '';
     width: 24px;
-    height: 24px;
+    height: 20px;
     border: 0;
-    margin-left: 8px;
     background-color: inherit;
     font-size: 16px;
     background-image: url(./img/expand.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.watch-full-discription--margin::before {
+    margin-left: 16px;
 }
 
 .main__wrapper-signboard {
