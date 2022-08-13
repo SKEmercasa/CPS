@@ -59,6 +59,7 @@ body {
 
 .item span:hover {
     filter: blur(2px);
+    color: black;
 }
 
 .item--active {
