@@ -57,6 +57,10 @@ body {
     align-items: center;
 }
 
+.item span:hover {
+    filter: blur(2px);
+}
+
 .item--active {
     color: #7E7E82;
     margin-left: 0;
@@ -103,7 +107,7 @@ body {
     margin-right: 7px;
 }
 
-.language-bar__item--active{
+.language-bar__item--active {
     color: #7E7E82;
 }
 
